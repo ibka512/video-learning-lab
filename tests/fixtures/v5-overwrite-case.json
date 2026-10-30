@@ -1,0 +1,102 @@
+{
+  "key": "C-2",
+  "provenance": "State values and PTS derived from the saved v5 overwrite failure; descriptive fields normalized for public replay.",
+  "initial": {
+    "position": 2,
+    "source": {
+      "frame_id": "F0000180",
+      "pts": 96000,
+      "time_base": "1/16000",
+      "time": 6.0
+    },
+    "observation": {
+      "state": "scattered_fragments",
+      "target_object": 0,
+      "reason": "none",
+      "objects": [
+        {
+          "kind": "content",
+          "layer": "foreground",
+          "bbox": [
+            0,
+            0,
+            1000,
+            1000
+          ],
+          "cue": "captured state-only replay"
+        }
+      ]
+    },
+    "issues": [],
+    "receipt": "initial",
+    "view": {
+      "fixture": true
+    }
+  },
+  "attempts": [
+    {
+      "position": 2,
+      "source": {
+        "frame_id": "F0000180",
+        "pts": 96000,
+        "time_base": "1/16000",
+        "time": 6.0
+      },
+      "observation": {
+        "state": "intact_background",
+        "target_object": 0,
+        "reason": "none",
+        "objects": [
+          {
+            "kind": "content",
+            "layer": "foreground",
+            "bbox": [
+              0,
+              0,
+              1000,
+              1000
+            ],
+            "cue": "captured state-only replay"
+          }
+        ]
+      },
+      "issues": [],
+      "receipt": "reread-1",
+      "view": {
+        "fixture": true
+      }
+    },
+    {
+      "position": 2,
+      "source": {
+        "frame_id": "F0000180",
+        "pts": 96000,
+        "time_base": "1/16000",
+        "time": 6.0
+      },
+      "observation": {
+        "state": "intact_background",
+        "target_object": 0,
+        "reason": "none",
+        "objects": [
+          {
+            "kind": "content",
+            "layer": "foreground",
+            "bbox": [
+              0,
+              0,
+              1000,
+              1000
+            ],
+            "cue": "captured state-only replay"
+          }
+        ]
+      },
+      "issues": [],
+      "receipt": "reread-2",
+      "view": {
+        "fixture": true
+      }
+    }
+  ]
+}

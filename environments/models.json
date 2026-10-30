@@ -1,0 +1,50 @@
+{
+  "models": [
+    {
+      "repo": "mlx-community/Qwen3-ASR-1.7B-8bit",
+      "sha": "a8379a2e2f9e313c9292cdf1af4055ab56d50d55",
+      "lastModified": "2026-01-29T15:11:55.000Z",
+      "gated": false,
+      "license": "apache-2.0",
+      "weight_bytes": 2463307541,
+      "weights": [
+        {
+          "path": "model.safetensors",
+          "size": 2463307541
+        }
+      ],
+      "pipeline_tag": null
+    },
+    {
+      "repo": "mlx-community/Qwen3-ForcedAligner-0.6B-8bit",
+      "sha": "0e1a68e91d815300c7c9754b2a7639378b23db15",
+      "lastModified": "2026-01-29T17:56:35.000Z",
+      "gated": false,
+      "license": "apache-2.0",
+      "weight_bytes": 1271924386,
+      "weights": [
+        {
+          "path": "model.safetensors",
+          "size": 1271924386
+        }
+      ],
+      "pipeline_tag": null
+    },
+    {
+      "repo": "mlx-community/Qwen3-VL-4B-Instruct-4bit",
+      "sha": "2fd8dacbdb8f1e54b8c005f081ec5bf79c56376b",
+      "lastModified": "2025-10-16T18:57:25.000Z",
+      "gated": false,
+      "license": "apache-2.0",
+      "weight_bytes": 3093767283,
+      "weights": [
+        {
+          "path": "model.safetensors",
+          "size": 3093767283
+        }
+      ],
+      "pipeline_tag": "image-text-to-text"
+    }
+  ],
+  "weights_in_repository": false
+}

@@ -1,0 +1,72 @@
+{
+  "arms": {
+    "native": {
+      "targets": 40,
+      "correct": 32,
+      "wrong": 8,
+      "unknown": 0,
+      "window_correct": 2,
+      "window_total": 8,
+      "content_correct": 30,
+      "content_total": 32,
+      "positive_total": 16,
+      "true_positive": 14,
+      "false_positive": 0,
+      "false_negative": 2,
+      "positive_unknown": 0,
+      "true_negative": 16,
+      "negative_unknown": 0,
+      "positive_recall": 0.875,
+      "positive_precision": 1.0,
+      "all_properties_correct_frames": 16,
+      "coexistence_frames": 4,
+      "both_coexisting_properties_correct": 2
+    },
+    "temporal": {
+      "targets": 40,
+      "correct": 32,
+      "wrong": 8,
+      "unknown": 0,
+      "window_correct": 2,
+      "window_total": 8,
+      "content_correct": 30,
+      "content_total": 32,
+      "positive_total": 16,
+      "true_positive": 14,
+      "false_positive": 0,
+      "false_negative": 2,
+      "positive_unknown": 0,
+      "true_negative": 16,
+      "negative_unknown": 0,
+      "positive_recall": 0.875,
+      "positive_precision": 1.0,
+      "all_properties_correct_frames": 16,
+      "coexistence_frames": 4,
+      "both_coexisting_properties_correct": 3
+    }
+  },
+  "paired_comparison": {
+    "native_only_correct": 1,
+    "temporal_only_correct": 1,
+    "both_correct": 31,
+    "neither_correct": 7,
+    "answer_disagreements": 2
+  },
+  "append_only_review": {
+    "initial_records_preserved": 28,
+    "initial_fields_preserved": 40,
+    "triggered_tasks": 2,
+    "completed_tasks": 2,
+    "deferred_tasks": 0,
+    "reread_property_count": 3,
+    "reread_correct": 2,
+    "correct_initial_fields_that_reread_would_corrupt": 1,
+    "new_correct_candidates": 1,
+    "conflict_fields": 2,
+    "automatic_promotions": 0
+  },
+  "input_pairs": 28,
+  "pairs_with_different_pixel_tensors": 0,
+  "scope": "40 frozen attribute targets across 24 selected positions, existing Godot development clip; not independent validation",
+  "semantic_approval": false
+}

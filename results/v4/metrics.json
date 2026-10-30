@@ -1,0 +1,12 @@
+{
+  "new_requests": 38,
+  "cache_hits": 0,
+  "requests": 38,
+  "failed": 0,
+  "inference_and_preparation_seconds": 267.42152754595736,
+  "model_load_seconds": 7.746507750009187,
+  "visual_cases": 6,
+  "semantic_objects": 7,
+  "media_scope": "selected source crops; not full-frame or full-video understanding",
+  "semantic_approval": false
+}

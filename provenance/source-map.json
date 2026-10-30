@@ -1,0 +1,622 @@
+{
+  "date": "2026-10-30",
+  "note": "Imported snapshot; earlier per-day Git history does not exist. Paths are project-relative, not machine paths.",
+  "files": [
+    {
+      "local_source_relative": "pipeline/audit_ocr_review.py",
+      "published": "pipeline/audit_ocr_review.py",
+      "source_sha256": "b41d6aeb6846c317abdb00aef964ed9852caf0d41a035c5c6d2897fd4b63a7ca",
+      "published_sha256": "b41d6aeb6846c317abdb00aef964ed9852caf0d41a035c5c6d2897fd4b63a7ca",
+      "adapted": false
+    },
+    {
+      "local_source_relative": "pipeline/build_refined_evidence.py",
+      "published": "pipeline/build_refined_evidence.py",
+      "source_sha256": "ae22d6a6e8234aa96192764bb9c1ffb279bcdbc54e1a975477b7ae387a3ddd16",
+      "published_sha256": "ae22d6a6e8234aa96192764bb9c1ffb279bcdbc54e1a975477b7ae387a3ddd16",
+      "adapted": false
+    },
+    {
+      "local_source_relative": "pipeline/evaluate_fact_pilot.py",
+      "published": "pipeline/evaluate_fact_pilot.py",
+      "source_sha256": "c9e1d46c3cd472ea0276d253396f67a872c220ed554286f0670a552ad8138a51",
+      "published_sha256": "c9e1d46c3cd472ea0276d253396f67a872c220ed554286f0670a552ad8138a51",
+      "adapted": false
+    },
+    {
+      "local_source_relative": "pipeline/evaluate_knowledge_v2.py",
+      "published": "pipeline/evaluate_knowledge_v2.py",
+      "source_sha256": "e31041e04b0622d9446aeba182ac36b036a951d1b11d0db216acfe5bf0da5efa",
+      "published_sha256": "e31041e04b0622d9446aeba182ac36b036a951d1b11d0db216acfe5bf0da5efa",
+      "adapted": false
+    },
+    {
+      "local_source_relative": "pipeline/evaluate_learning_v3.py",
+      "published": "pipeline/evaluate_learning_v3.py",
+      "source_sha256": "2183e221b97cb2cdca4209793763e84951cd90ce751b794b47c7afd834ca8752",
+      "published_sha256": "2183e221b97cb2cdca4209793763e84951cd90ce751b794b47c7afd834ca8752",
+      "adapted": false
+    },
+    {
+      "local_source_relative": "pipeline/evaluate_object_properties_v6.py",
+      "published": "pipeline/evaluate_object_properties_v6.py",
+      "source_sha256": "9e39fa476f19dd42b868b6b7a4eeb7eb4ba98e0e2c97352e72a2bc5b692ed11c",
+      "published_sha256": "9e39fa476f19dd42b868b6b7a4eeb7eb4ba98e0e2c97352e72a2bc5b692ed11c",
+      "adapted": false
+    },
+    {
+      "local_source_relative": "pipeline/evaluate_ocr_review.py",
+      "published": "pipeline/evaluate_ocr_review.py",
+      "source_sha256": "bda0772d4d6586e11e854a38b41d5d02dce101d8578269dc01d043811a8d38e4",
+      "published_sha256": "bda0772d4d6586e11e854a38b41d5d02dce101d8578269dc01d043811a8d38e4",
+      "adapted": false
+    },
+    {
+      "local_source_relative": "pipeline/evaluate_reviewed_learning_v3.py",
+      "published": "pipeline/evaluate_reviewed_learning_v3.py",
+      "source_sha256": "2a7d7a173546c1565fa62b26d8ad1278aa47203b704749bd48ff4e9df0dab670",
+      "published_sha256": "2a7d7a173546c1565fa62b26d8ad1278aa47203b704749bd48ff4e9df0dab670",
+      "adapted": false
+    },
+    {
+      "local_source_relative": "pipeline/evaluate_video_supplements_v4.py",
+      "published": "pipeline/evaluate_video_supplements_v4.py",
+      "source_sha256": "1bb9c7b467497a05645b37dd8599804a79b9eb93c1bcb1d04674054973e584f1",
+      "published_sha256": "1bb9c7b467497a05645b37dd8599804a79b9eb93c1bcb1d04674054973e584f1",
+      "adapted": false
+    },
+    {
+      "local_source_relative": "pipeline/evaluate_video_understanding_v4.py",
+      "published": "pipeline/evaluate_video_understanding_v4.py",
+      "source_sha256": "a6b73f6597e9d29becbcf1dbb80eb42f2c94c863b139cf6a621852201a88d8b9",
+      "published_sha256": "a6b73f6597e9d29becbcf1dbb80eb42f2c94c863b139cf6a621852201a88d8b9",
+      "adapted": false
+    },
+    {
+      "local_source_relative": "pipeline/evaluate_visual_ledger_v5.py",
+      "published": "pipeline/evaluate_visual_ledger_v5.py",
+      "source_sha256": "c0c4dbe9b013e436760632494c555c5550af956be3f96c947467df27ef1122c6",
+      "published_sha256": "c0c4dbe9b013e436760632494c555c5550af956be3f96c947467df27ef1122c6",
+      "adapted": false
+    },
+    {
+      "local_source_relative": "pipeline/export_fact_markdown.py",
+      "published": "pipeline/export_fact_markdown.py",
+      "source_sha256": "ee707edf385a58a7af220b97774f1d658d1e33e35eef8cfc129fb93c48d1fa84",
+      "published_sha256": "ee707edf385a58a7af220b97774f1d658d1e33e35eef8cfc129fb93c48d1fa84",
+      "adapted": false
+    },
+    {
+      "local_source_relative": "pipeline/export_object_properties_v6.py",
+      "published": "pipeline/export_object_properties_v6.py",
+      "source_sha256": "94a1679d41d1d1feef751d486def2c22161d357834f60273545350dc6b687bb5",
+      "published_sha256": "94a1679d41d1d1feef751d486def2c22161d357834f60273545350dc6b687bb5",
+      "adapted": false
+    },
+    {
+      "local_source_relative": "pipeline/export_visual_ledger_v5.py",
+      "published": "pipeline/export_visual_ledger_v5.py",
+      "source_sha256": "72b94c06887de18df9d3a04635ae74bc70255fef2ae71c0d11474ccbdabc3719",
+      "published_sha256": "72b94c06887de18df9d3a04635ae74bc70255fef2ae71c0d11474ccbdabc3719",
+      "adapted": false
+    },
+    {
+      "local_source_relative": "pipeline/extract_knowledge.py",
+      "published": "pipeline/extract_knowledge.py",
+      "source_sha256": "44e482dcf20dc11320dcfad95858a1ade6da5afcff970d8248f1021a5bb32b75",
+      "published_sha256": "44e482dcf20dc11320dcfad95858a1ade6da5afcff970d8248f1021a5bb32b75",
+      "adapted": false
+    },
+    {
+      "local_source_relative": "pipeline/fact_ledger.py",
+      "published": "pipeline/fact_ledger.py",
+      "source_sha256": "d0f161601346c2236731f5c036b9b7d8c75ed84bd8ca3f681faea3950823c309",
+      "published_sha256": "d0f161601346c2236731f5c036b9b7d8c75ed84bd8ca3f681faea3950823c309",
+      "adapted": false
+    },
+    {
+      "local_source_relative": "pipeline/finalize_fact_ledger.py",
+      "published": "pipeline/finalize_fact_ledger.py",
+      "source_sha256": "051df439bfedccb505852e44ba22931f9a077544c28c5f31986c32e64793236c",
+      "published_sha256": "051df439bfedccb505852e44ba22931f9a077544c28c5f31986c32e64793236c",
+      "adapted": false
+    },
+    {
+      "local_source_relative": "pipeline/finalize_learning_v3.py",
+      "published": "pipeline/finalize_learning_v3.py",
+      "source_sha256": "6c566d9ee09798e9ef6aece3ccefd70d9d67daa99733d76be43366d57787e2da",
+      "published_sha256": "6c566d9ee09798e9ef6aece3ccefd70d9d67daa99733d76be43366d57787e2da",
+      "adapted": false
+    },
+    {
+      "local_source_relative": "pipeline/finish_ocr_review.py",
+      "published": "pipeline/finish_ocr_review.py",
+      "source_sha256": "b8b8f5e6e2594aadfcff3cc79b7b2d5b37152e3dc11e3026911114e178130152",
+      "published_sha256": "b8b8f5e6e2594aadfcff3cc79b7b2d5b37152e3dc11e3026911114e178130152",
+      "adapted": false
+    },
+    {
+      "local_source_relative": "pipeline/knowledge_runtime.py",
+      "published": "pipeline/knowledge_runtime.py",
+      "source_sha256": "18ea28fa5c781bef15e9263df1d6f45b0e120eb8f7531643b78ebada7e3db181",
+      "published_sha256": "18ea28fa5c781bef15e9263df1d6f45b0e120eb8f7531643b78ebada7e3db181",
+      "adapted": false
+    },
+    {
+      "local_source_relative": "pipeline/knowledge_schema.py",
+      "published": "pipeline/knowledge_schema.py",
+      "source_sha256": "6dce6e57ef5ee75ada39cff4fbc9c747546ec8074c5246f92b35147dd18b9f77",
+      "published_sha256": "6dce6e57ef5ee75ada39cff4fbc9c747546ec8074c5246f92b35147dd18b9f77",
+      "adapted": false
+    },
+    {
+      "local_source_relative": "pipeline/learning_schema.py",
+      "published": "pipeline/learning_schema.py",
+      "source_sha256": "25b2e6172ded134d2bf3b3ddef05e58eddbf60a6fe4e8c70d46079eddb16ca05",
+      "published_sha256": "25b2e6172ded134d2bf3b3ddef05e58eddbf60a6fe4e8c70d46079eddb16ca05",
+      "adapted": false
+    },
+    {
+      "local_source_relative": "pipeline/object_evidence_v6.py",
+      "published": "pipeline/object_evidence_v6.py",
+      "source_sha256": "bd91eb72a8c1ef6edcd3543f3f3a2509b7271909f3f48a0d7e23e6f2f6b3d576",
+      "published_sha256": "bd91eb72a8c1ef6edcd3543f3f3a2509b7271909f3f48a0d7e23e6f2f6b3d576",
+      "adapted": false
+    },
+    {
+      "local_source_relative": "pipeline/ocr_routing.py",
+      "published": "pipeline/ocr_routing.py",
+      "source_sha256": "d1c77bc511c96f9f8a96c86ca142e38e74391d46d8ad0c62f514bfd1a7356f72",
+      "published_sha256": "d1c77bc511c96f9f8a96c86ca142e38e74391d46d8ad0c62f514bfd1a7356f72",
+      "adapted": false
+    },
+    {
+      "local_source_relative": "pipeline/prepare_fact_packets.py",
+      "published": "pipeline/prepare_fact_packets.py",
+      "source_sha256": "1e804087401c957979610916937d1986138bea96e0a9b448da9c912a7057b6c9",
+      "published_sha256": "1e804087401c957979610916937d1986138bea96e0a9b448da9c912a7057b6c9",
+      "adapted": false
+    },
+    {
+      "local_source_relative": "pipeline/prepare_ocr_review.py",
+      "published": "pipeline/prepare_ocr_review.py",
+      "source_sha256": "aacb75aef01e81b07019c84e6a9af05f87a25960bf949b1688833e656d8a935d",
+      "published_sha256": "aacb75aef01e81b07019c84e6a9af05f87a25960bf949b1688833e656d8a935d",
+      "adapted": false
+    },
+    {
+      "local_source_relative": "pipeline/recover_knowledge_duplicates.py",
+      "published": "pipeline/recover_knowledge_duplicates.py",
+      "source_sha256": "4e2997975cd54254d398633ce82a63f98af54ff77608612d647893e3b57b6bdc",
+      "published_sha256": "4e2997975cd54254d398633ce82a63f98af54ff77608612d647893e3b57b6bdc",
+      "adapted": false
+    },
+    {
+      "local_source_relative": "pipeline/refinement_context.py",
+      "published": "pipeline/refinement_context.py",
+      "source_sha256": "317607db314b2cc8bc7730fbf7ac0ae62632ad1eddfd584482b0280f686f33ab",
+      "published_sha256": "317607db314b2cc8bc7730fbf7ac0ae62632ad1eddfd584482b0280f686f33ab",
+      "adapted": false
+    },
+    {
+      "local_source_relative": "pipeline/run_fact_extraction.py",
+      "published": "pipeline/run_fact_extraction.py",
+      "source_sha256": "e24b8f3afce9f4cfd6c6b9a8ecfd1caf4c53066b717f48bf963bd2932fb09776",
+      "published_sha256": "e24b8f3afce9f4cfd6c6b9a8ecfd1caf4c53066b717f48bf963bd2932fb09776",
+      "adapted": false
+    },
+    {
+      "local_source_relative": "pipeline/run_fact_pipeline.py",
+      "published": "pipeline/run_fact_pipeline.py",
+      "source_sha256": "981ccd548659625fb944d71bba10da7e087db1fcfc8e6a30bf1540605dfc5226",
+      "published_sha256": "981ccd548659625fb944d71bba10da7e087db1fcfc8e6a30bf1540605dfc5226",
+      "adapted": false
+    },
+    {
+      "local_source_relative": "pipeline/run_knowledge_pipeline.py",
+      "published": "pipeline/run_knowledge_pipeline.py",
+      "source_sha256": "189a7a26217d4713a37eee644eb025f67489be4f20a56cc2f4c88238c8095650",
+      "published_sha256": "189a7a26217d4713a37eee644eb025f67489be4f20a56cc2f4c88238c8095650",
+      "adapted": false
+    },
+    {
+      "local_source_relative": "pipeline/run_knowledge_v2.py",
+      "published": "pipeline/run_knowledge_v2.py",
+      "source_sha256": "ba10a9cf3e741049b2855b1a5571e6385ae0f356b2e38d37b8e09c355dfef77f",
+      "published_sha256": "ba10a9cf3e741049b2855b1a5571e6385ae0f356b2e38d37b8e09c355dfef77f",
+      "adapted": false
+    },
+    {
+      "local_source_relative": "pipeline/run_learning_v3.py",
+      "published": "pipeline/run_learning_v3.py",
+      "source_sha256": "4f5a5e4c79c15594f9cd99efbfd382fdb21aaa6c2ab7d9d39be1a9b649f3dce2",
+      "published_sha256": "4f5a5e4c79c15594f9cd99efbfd382fdb21aaa6c2ab7d9d39be1a9b649f3dce2",
+      "adapted": false
+    },
+    {
+      "local_source_relative": "pipeline/run_object_properties_v6.py",
+      "published": "pipeline/run_object_properties_v6.py",
+      "source_sha256": "add512103949baaa37d69c9cd64035a97010088d60afde7f89e52d909424611d",
+      "published_sha256": "ae8e07862b0af7f0a94ae87e4d89f9fb5ed987f2a9a36b17017897a409b1f9d1",
+      "adapted": true
+    },
+    {
+      "local_source_relative": "pipeline/run_ocr_review.py",
+      "published": "pipeline/run_ocr_review.py",
+      "source_sha256": "233a7848523e9eb2ede17fa6232d85d352693ff5d4a728e9bed69671d034397e",
+      "published_sha256": "233a7848523e9eb2ede17fa6232d85d352693ff5d4a728e9bed69671d034397e",
+      "adapted": false
+    },
+    {
+      "local_source_relative": "pipeline/run_semantic_groups_v4.py",
+      "published": "pipeline/run_semantic_groups_v4.py",
+      "source_sha256": "a516f9338b06738acf69f816d053c951761ae7e05152649317d9b8cba10bbce0",
+      "published_sha256": "a516f9338b06738acf69f816d053c951761ae7e05152649317d9b8cba10bbce0",
+      "adapted": false
+    },
+    {
+      "local_source_relative": "pipeline/run_transcript_control_v4.py",
+      "published": "pipeline/run_transcript_control_v4.py",
+      "source_sha256": "34dc0f449f2bfc37abaea1e050b69ec54436b36b2cf9dc53f6cd62c8062d4d97",
+      "published_sha256": "34dc0f449f2bfc37abaea1e050b69ec54436b36b2cf9dc53f6cd62c8062d4d97",
+      "adapted": false
+    },
+    {
+      "local_source_relative": "pipeline/run_video_understanding_v4.py",
+      "published": "pipeline/run_video_understanding_v4.py",
+      "source_sha256": "b2fab9dd9f41c4c0631879f6061c95b1a78f7d1e06006eb0fbd4a37ec7fbb409",
+      "published_sha256": "2479d284699a2055a85cf93d57200cdf59fa1b72a430aeb1a917e536731febc4",
+      "adapted": true
+    },
+    {
+      "local_source_relative": "pipeline/run_visual_ledger_v5.py",
+      "published": "pipeline/run_visual_ledger_v5.py",
+      "source_sha256": "d557a3784b0b44656fab0b55e46be6c73e1006bde20c4f192603d9c9f87cc23d",
+      "published_sha256": "587c5f91d21fe80b5e2620a88d1f006814888d92884683e6a61e35d842f7259e",
+      "adapted": true
+    },
+    {
+      "local_source_relative": "pipeline/test_fact_ledger.py",
+      "published": "pipeline/test_fact_ledger.py",
+      "source_sha256": "cd209cd548ee10f01420dbbec4a03442ca2b3f95c8928ae0a725254531503aea",
+      "published_sha256": "cd209cd548ee10f01420dbbec4a03442ca2b3f95c8928ae0a725254531503aea",
+      "adapted": false
+    },
+    {
+      "local_source_relative": "pipeline/test_knowledge_pipeline.py",
+      "published": "pipeline/test_knowledge_pipeline.py",
+      "source_sha256": "a6dadc05b457b2636ddd093b8bee2bb9108886a4b569cf0a23641edb1002eeaf",
+      "published_sha256": "a6dadc05b457b2636ddd093b8bee2bb9108886a4b569cf0a23641edb1002eeaf",
+      "adapted": false
+    },
+    {
+      "local_source_relative": "pipeline/test_learning_v3.py",
+      "published": "pipeline/test_learning_v3.py",
+      "source_sha256": "2fcc556c10045c374738bf37edf2717d3546533f79d0fdd998d381674b7fb0c7",
+      "published_sha256": "2fcc556c10045c374738bf37edf2717d3546533f79d0fdd998d381674b7fb0c7",
+      "adapted": false
+    },
+    {
+      "local_source_relative": "pipeline/test_object_evidence_v6.py",
+      "published": "pipeline/test_object_evidence_v6.py",
+      "source_sha256": "b44b62f2c31364ea868ef6215943e6e9d34cc38740a58ae019dae3e6cc967728",
+      "published_sha256": "fbc7b555849e67717c51f49f8a1a25f5792bd47e7b60c56cef132d39238b1fc5",
+      "adapted": true
+    },
+    {
+      "local_source_relative": "pipeline/test_ocr_routing.py",
+      "published": "pipeline/test_ocr_routing.py",
+      "source_sha256": "a42e524c1ae5a3ed9717e720b9667fff831d29aab7293966b673d7b4ab4c38d3",
+      "published_sha256": "a42e524c1ae5a3ed9717e720b9667fff831d29aab7293966b673d7b4ab4c38d3",
+      "adapted": false
+    },
+    {
+      "local_source_relative": "pipeline/test_video_understanding_v4.py",
+      "published": "pipeline/test_video_understanding_v4.py",
+      "source_sha256": "1fd1b8913bcf2cf1bbb796e713a1be388ac68b6c627677a11a752f024df8e323",
+      "published_sha256": "1fd1b8913bcf2cf1bbb796e713a1be388ac68b6c627677a11a752f024df8e323",
+      "adapted": false
+    },
+    {
+      "local_source_relative": "pipeline/test_visual_ledger_v5.py",
+      "published": "pipeline/test_visual_ledger_v5.py",
+      "source_sha256": "0eee3250f8a6393f8f77e00579a9c0593760b7efb20c7f94ed64d6fc8d9a18a0",
+      "published_sha256": "0eee3250f8a6393f8f77e00579a9c0593760b7efb20c7f94ed64d6fc8d9a18a0",
+      "adapted": false
+    },
+    {
+      "local_source_relative": "pipeline/visual_ledger_v5.py",
+      "published": "pipeline/visual_ledger_v5.py",
+      "source_sha256": "092abaefe9d7b2b8c865ec9451e79b0557aa353556e10bd7d0e5b59ff1104279",
+      "published_sha256": "092abaefe9d7b2b8c865ec9451e79b0557aa353556e10bd7d0e5b59ff1104279",
+      "adapted": false
+    },
+    {
+      "local_source_relative": "outputs/首条视频验证/工具/audit.py",
+      "published": "support/pilot/audit.py",
+      "source_sha256": "bffeefdefd8b02215763b5f1cd10f155dd0cad0935f7b62c2e0bbbfc4a89471e",
+      "published_sha256": "bffeefdefd8b02215763b5f1cd10f155dd0cad0935f7b62c2e0bbbfc4a89471e",
+      "adapted": false
+    },
+    {
+      "local_source_relative": "outputs/首条视频验证/工具/correct_transcript.py",
+      "published": "support/pilot/correct_transcript.py",
+      "source_sha256": "6961bb26dc073f75c85f43e51424e05e36ad7af5b04b5d1978544b7116a90ddf",
+      "published_sha256": "6961bb26dc073f75c85f43e51424e05e36ad7af5b04b5d1978544b7116a90ddf",
+      "adapted": false
+    },
+    {
+      "local_source_relative": "outputs/首条视频验证/工具/download_models.py",
+      "published": "support/pilot/download_models.py",
+      "source_sha256": "4f971dd19558390a3f3e3fd4500045f59eb613ea62a3def3b337c479ded428df",
+      "published_sha256": "4f971dd19558390a3f3e3fd4500045f59eb613ea62a3def3b337c479ded428df",
+      "adapted": false
+    },
+    {
+      "local_source_relative": "outputs/首条视频验证/工具/export_notes.py",
+      "published": "support/pilot/export_notes.py",
+      "source_sha256": "69ea7cd99c5948cd054c9635c5f607b1961e87ed4547b9343417cfa9b8fab542",
+      "published_sha256": "69ea7cd99c5948cd054c9635c5f607b1961e87ed4547b9343417cfa9b8fab542",
+      "adapted": false
+    },
+    {
+      "local_source_relative": "outputs/首条视频验证/工具/ocr_frames.swift",
+      "published": "support/pilot/ocr_frames.swift",
+      "source_sha256": "a8f69fec0d6af50b6cf3b34a30e4a5cb441f3f7626bec41929fe278ce4417e3f",
+      "published_sha256": "a8f69fec0d6af50b6cf3b34a30e4a5cb441f3f7626bec41929fe278ce4417e3f",
+      "adapted": false
+    },
+    {
+      "local_source_relative": "outputs/首条视频验证/工具/prepare.py",
+      "published": "support/pilot/prepare.py",
+      "source_sha256": "59ef9187b5a29d6b2e1b1eea52973e76a708161e7a40efa38e12359cdbb82784",
+      "published_sha256": "59ef9187b5a29d6b2e1b1eea52973e76a708161e7a40efa38e12359cdbb82784",
+      "adapted": false
+    },
+    {
+      "local_source_relative": "outputs/首条视频验证/工具/report.py",
+      "published": "support/pilot/report.py",
+      "source_sha256": "a4e7ecb9a5384322db1844c6c056f2dd64be75c445d0603eefcb09fdb6d9667b",
+      "published_sha256": "a4e7ecb9a5384322db1844c6c056f2dd64be75c445d0603eefcb09fdb6d9667b",
+      "adapted": false
+    },
+    {
+      "local_source_relative": "outputs/首条视频验证/工具/test_contracts.py",
+      "published": "support/pilot/test_contracts.py",
+      "source_sha256": "366191287bc72713af450a794677b404edd17f84bc3c126aec4caca46ce3147e",
+      "published_sha256": "366191287bc72713af450a794677b404edd17f84bc3c126aec4caca46ce3147e",
+      "adapted": false
+    },
+    {
+      "local_source_relative": "outputs/首条视频验证/工具/test_video_packing.py",
+      "published": "support/pilot/test_video_packing.py",
+      "source_sha256": "8c3967f19402dec8867f14f57d7310db339a7434297013cec132ec34d5abcba7",
+      "published_sha256": "8c3967f19402dec8867f14f57d7310db339a7434297013cec132ec34d5abcba7",
+      "adapted": false
+    },
+    {
+      "local_source_relative": "outputs/首条视频验证/工具/transcribe.py",
+      "published": "support/pilot/transcribe.py",
+      "source_sha256": "3d04724ec85c650db048b51e3ea8ce27362248b5374e2bbb29598214516a8e4f",
+      "published_sha256": "3d04724ec85c650db048b51e3ea8ce27362248b5374e2bbb29598214516a8e4f",
+      "adapted": false
+    },
+    {
+      "local_source_relative": "outputs/首条视频验证/工具/vision.py",
+      "published": "support/pilot/vision.py",
+      "source_sha256": "a88e569b70d8a63c6b579495cb37bbb8721203897e82ca0ca1c9a506610976d6",
+      "published_sha256": "a88e569b70d8a63c6b579495cb37bbb8721203897e82ca0ca1c9a506610976d6",
+      "adapted": false
+    },
+    {
+      "local_source_relative": "outputs/首条视频验证/工具/requirements.in",
+      "published": "environments/mlx-requirements.in",
+      "source_sha256": "d50a76ef4b8968f63d581e0c0f08c9b1a8e4ffa6782a16c0e4dd52052c488679",
+      "published_sha256": "d50a76ef4b8968f63d581e0c0f08c9b1a8e4ffa6782a16c0e4dd52052c488679",
+      "adapted": false
+    },
+    {
+      "local_source_relative": "outputs/首条视频验证/工具/requirements.lock",
+      "published": "environments/mlx-requirements.lock",
+      "source_sha256": "e127c386668aff6527a5fddd3472b32d4374a2b5f058203faa751cd1fde2952a",
+      "published_sha256": "3d059577335e43e4d89f0f8d4fa788c6a1e1e96fe805ee54b2ded199fbb9f83a",
+      "adapted": true
+    },
+    {
+      "local_source_relative": "outputs/PaddleOCR对照验证-2026-10-28/工具/requirements.in",
+      "published": "environments/paddleocr-requirements.in",
+      "source_sha256": "145e031efe8721cd02e6c5935e3eb3ba159513868e7cd30fb5b022c804974c36",
+      "published_sha256": "145e031efe8721cd02e6c5935e3eb3ba159513868e7cd30fb5b022c804974c36",
+      "adapted": false
+    },
+    {
+      "local_source_relative": "outputs/PaddleOCR对照验证-2026-10-28/工具/requirements.lock",
+      "published": "environments/paddleocr-requirements.lock",
+      "source_sha256": "7cafa845a80eb89234c5082aad98f0b1be5185e02838fe618c41ab845f775f50",
+      "published_sha256": "02311b3f6a3672a3e59841c036264d3d00ff565302d8afd3dc00360bc01de33e",
+      "adapted": true
+    },
+    {
+      "local_source_relative": "outputs/首条视频验证/试运行报告.md",
+      "published": "docs/experiments/pilot.md",
+      "source_sha256": "936b75498029027f07549ce3bf30f843348f9cb9ed1a33b6f7255c351a718745",
+      "published_sha256": "0d9e9aceeafa335b2f949cc8d628e6df7c3b3f8e93d7e050e585b5d91b8bf9c1",
+      "adapted": true
+    },
+    {
+      "local_source_relative": "outputs/第二轮视频验证-2026-10-27/实测报告.md",
+      "published": "docs/experiments/round2.md",
+      "source_sha256": "b11af366d9b92eecb0d841417bde39fe2519f85dc00cf7efe7ca9d19ca52779c",
+      "published_sha256": "a5b91e92103410af888c5e417258c040e5642c3701286ca173820b692548f15b",
+      "adapted": true
+    },
+    {
+      "local_source_relative": "outputs/OCR局部复核接入-2026-10-28/实测报告.md",
+      "published": "docs/experiments/ocr-routing.md",
+      "source_sha256": "a9f3fce1ac2b97098f0d95664995a5f96de14c24af26ba23893e287c9f8de279",
+      "published_sha256": "dbd223ba87179058c2e989dcbd3b6ed674971a2f425514ae9e3ad0082649a83d",
+      "adapted": true
+    },
+    {
+      "local_source_relative": "outputs/PaddleOCR对照验证-2026-10-28/实测报告.md",
+      "published": "docs/experiments/paddleocr.md",
+      "source_sha256": "a84f56832b76cc0bbac0cdb5a85a13c8996531d117eae77e3919de6bf99883ff",
+      "published_sha256": "de4c22121a27ddf520ebdae20be8cdd00672653020b3f239c623dd319ac1acea",
+      "adapted": true
+    },
+    {
+      "local_source_relative": "outputs/事实表验证-2026-10-28/实测报告.md",
+      "published": "docs/experiments/facts.md",
+      "source_sha256": "f7285d461edc4e516816c93d978f9cc7628df014a86740640914b6ac0ff1fe41",
+      "published_sha256": "42e6e24e6b90aee66081a63c3f36470782299f32d9ac5574873c9fc13e59ac29",
+      "adapted": true
+    },
+    {
+      "local_source_relative": "outputs/通用知识抽取-v2-2026-10-29/实测报告.md",
+      "published": "docs/experiments/v2.md",
+      "source_sha256": "2cc9d184daebf2dd6b93be8d7320aab1c593e0450c6ff87a57a8d861eeb9a153",
+      "published_sha256": "fc810a9b490e433e87f5c4325db0241a04256fae6f68cbc6094e79460c968fcf",
+      "adapted": true
+    },
+    {
+      "local_source_relative": "outputs/步骤完整性-v3-2026-10-29/实测报告.md",
+      "published": "docs/experiments/v3.md",
+      "source_sha256": "782843784ab3d705de98839badabb0723698b23f055bc81671a7542161b24fe8",
+      "published_sha256": "95adf9fb9f50f6902ea067b5152029a4120545d69b2da18705415caf99d1ff14",
+      "adapted": true
+    },
+    {
+      "local_source_relative": "outputs/声画理解对照-v4-2026-10-29/实测报告.md",
+      "published": "docs/experiments/v4.md",
+      "source_sha256": "ac7a0a54435742e306acaf5716aa64b0ef98889f6615324d701beae2d1913352",
+      "published_sha256": "4025f9f49e31405ff41a357abd52226a9fc90cc9af7c9f5e536a0035b885d191",
+      "adapted": true
+    },
+    {
+      "local_source_relative": "outputs/逐帧证据验证-v5-2026-10-29/实测报告.md",
+      "published": "docs/experiments/v5.md",
+      "source_sha256": "d912ff8d43d0a5c312ad51aeec7d3ec23c087a3212d37a0d706001c878116697",
+      "published_sha256": "279a484ab04e27b23397f70f2b1c8eb7d398f2417e2b915577e9b758e7a539c2",
+      "adapted": true
+    },
+    {
+      "local_source_relative": "outputs/对象属性验证-v6-2026-10-30/实测报告.md",
+      "published": "docs/experiments/v6.md",
+      "source_sha256": "2558fb6b9f1bf41daf24e6f23a73d08f4a68e079628b2ecb9cfffdc69ec65cbe",
+      "published_sha256": "6e43d6b2b46a59dad9264ff9a2aa38d88df43aeccb9733152fe8e046a05300b7",
+      "adapted": true
+    },
+    {
+      "local_source_relative": "outputs/视频全帧学习与时间轴转写方案.md",
+      "published": "docs/design/initial.md",
+      "source_sha256": "3c89262c057b0c8b1d7a8e14faaf11dcb015375f974951fa0cc30e4b27e00ab0",
+      "published_sha256": "e0ae20ad0df7286bff28f353739cb6a4002afdcfadfa3750ab710481687eae66",
+      "adapted": true
+    },
+    {
+      "local_source_relative": "outputs/视频学习流程方案-v2/流程方案.md",
+      "published": "docs/design/workflow.md",
+      "source_sha256": "f464bc71fdb6ec19eecd7f1a23f2197284a558b29717132de178437160339c6e",
+      "published_sha256": "5bb8662e6ef23e2ea9183503bfa17d0f0e1017c3f03c1764f5ca138ef8249107",
+      "adapted": true
+    },
+    {
+      "local_source_relative": "outputs/GitHub视频学习项目借鉴调研.md",
+      "published": "docs/design/github-research.md",
+      "source_sha256": "8dbf1c39b08c7c9461cafee9a9dc3d168b2ffcd6f14651a56d4641087b64fdfe",
+      "published_sha256": "d360aed1215771b50d52f5369d0cb3c0691bc1736e6c972c0bc528839d93e060",
+      "adapted": true
+    },
+    {
+      "local_source_relative": "outputs/视频理解问题解决方案-v5.md",
+      "published": "docs/design/v5-solutions.md",
+      "source_sha256": "7ac2bcdbd233991b8a265ad8fce577afa7ff0bdf21ea57c99634f29c834f4053",
+      "published_sha256": "388a9c7133eb60ec1c2c82725f4fe8a78e4c21b219def89344317b43d6255e8d",
+      "adapted": true
+    },
+    {
+      "local_source_relative": "outputs/声画理解对照-v4-2026-10-29/run-r1/visual.evaluation.json",
+      "published": "results/v4/visual.evaluation.json",
+      "source_sha256": "da178cc1512b06bebf90721eeaaa3f6e83f55c84cc09c0f189e2948440a13448",
+      "published_sha256": "da178cc1512b06bebf90721eeaaa3f6e83f55c84cc09c0f189e2948440a13448",
+      "adapted": false
+    },
+    {
+      "local_source_relative": "outputs/声画理解对照-v4-2026-10-29/run-r1/metrics.json",
+      "published": "results/v4/metrics.json",
+      "source_sha256": "3ef19de3b93a9f2990bc4409e2c8fc232dba2a9c9a3abf9158dcc98f35af618a",
+      "published_sha256": "3ef19de3b93a9f2990bc4409e2c8fc232dba2a9c9a3abf9158dcc98f35af618a",
+      "adapted": false
+    },
+    {
+      "local_source_relative": "outputs/逐帧证据验证-v5-2026-10-29/run-r3/evaluation.json",
+      "published": "results/v5/evaluation.json",
+      "source_sha256": "dc2ff3ba24a290f6f4c2d8c514fd157bef30557797eaec87758b17625da43d44",
+      "published_sha256": "dc2ff3ba24a290f6f4c2d8c514fd157bef30557797eaec87758b17625da43d44",
+      "adapted": false
+    },
+    {
+      "local_source_relative": "outputs/逐帧证据验证-v5-2026-10-29/run-r3/metrics.json",
+      "published": "results/v5/metrics.json",
+      "source_sha256": "b4a5939cf04355422ea9b3335ea0351f79f58d9cccf612d054f07371c7ed6929",
+      "published_sha256": "b4a5939cf04355422ea9b3335ea0351f79f58d9cccf612d054f07371c7ed6929",
+      "adapted": false
+    },
+    {
+      "local_source_relative": "outputs/逐帧证据验证-v5-2026-10-29/acceptance.json",
+      "published": "results/v5/acceptance.json",
+      "source_sha256": "1ba0b2c28b5a9c90a2091a7c6ee2be61f2ce52e9f57e1e77b66fd6732917fc95",
+      "published_sha256": "1ba0b2c28b5a9c90a2091a7c6ee2be61f2ce52e9f57e1e77b66fd6732917fc95",
+      "adapted": false
+    },
+    {
+      "local_source_relative": "outputs/对象属性验证-v6-2026-10-30/run-r2/evaluation.json",
+      "published": "results/v6/evaluation.json",
+      "source_sha256": "8ba9ff10440e57778b0e1c15ec4cc68b8a4c920c47bfecf8ede69849162840c7",
+      "published_sha256": "8ba9ff10440e57778b0e1c15ec4cc68b8a4c920c47bfecf8ede69849162840c7",
+      "adapted": false
+    },
+    {
+      "local_source_relative": "outputs/对象属性验证-v6-2026-10-30/run-r2/metrics.json",
+      "published": "results/v6/metrics.json",
+      "source_sha256": "676f4a0913e0a916137b02348b61293b2efbe2fcecafe0c15fd39dd676747713",
+      "published_sha256": "676f4a0913e0a916137b02348b61293b2efbe2fcecafe0c15fd39dd676747713",
+      "adapted": false
+    },
+    {
+      "local_source_relative": "outputs/对象属性验证-v6-2026-10-30/acceptance.json",
+      "published": "results/v6/acceptance.json",
+      "source_sha256": "29540269c6542305e9e3352d808cc6403517ae046aea1db34fc60fb9bd8a4d5f",
+      "published_sha256": "29540269c6542305e9e3352d808cc6403517ae046aea1db34fc60fb9bd8a4d5f",
+      "adapted": false
+    },
+    {
+      "local_source_relative": "work/video-v4-20261029/prepare_frames.py",
+      "published": "experiments/v4/prepare_frames.py",
+      "source_sha256": "a0267396ab7b7eae9633f51df3d17b6afb02d5f3b9be34d8785b245a7c931f20",
+      "published_sha256": "a0267396ab7b7eae9633f51df3d17b6afb02d5f3b9be34d8785b245a7c931f20",
+      "adapted": false
+    },
+    {
+      "local_source_relative": "work/video-v4-20261029/freeze_cases.py",
+      "published": "experiments/v4/freeze_cases.py",
+      "source_sha256": "deb4842a345c848f83caafca519bc54d9b0e03a8d8d7b8a6a01fc0c3dc39d610",
+      "published_sha256": "deb4842a345c848f83caafca519bc54d9b0e03a8d8d7b8a6a01fc0c3dc39d610",
+      "adapted": false
+    },
+    {
+      "local_source_relative": "work/video-v5-20261029/prepare_experiment.py",
+      "published": "experiments/v5/prepare_experiment.py",
+      "source_sha256": "c1641d891fda032fdded303a2202b93dcd917d301e4099930e5556d038c997ac",
+      "published_sha256": "c1641d891fda032fdded303a2202b93dcd917d301e4099930e5556d038c997ac",
+      "adapted": false
+    },
+    {
+      "local_source_relative": "work/video-v6-20261030/prepare_experiment.py",
+      "published": "experiments/v6/prepare_experiment.py",
+      "source_sha256": "80e04ce29afc4d767e03193bac15e0a69873c619ae3ac70f7ae6af8681876715",
+      "published_sha256": "80e04ce29afc4d767e03193bac15e0a69873c619ae3ac70f7ae6af8681876715",
+      "adapted": false
+    }
+  ]
+}

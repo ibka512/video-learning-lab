@@ -1,0 +1,16 @@
+{
+  "engineering_scope": "implemented_and_executed",
+  "semantic_improvement_gate": "failed",
+  "automatic_knowledge_publish": false,
+  "D_default_enabled": false,
+  "legacy_pipeline_replaced": false,
+  "candidate_display_first": "C",
+  "approved_visual_facts_added": 0,
+  "reason": "C gated 17 correct / 5 wrong / 2 unknown; D 16 correct / 8 wrong / 0 unknown. Six of twelve corroborated rereads are wrong. Repetition is not independent evidence of correctness.",
+  "next_work_not_implemented": [
+    "object-specific simultaneous attributes",
+    "separate content recognition from window identity",
+    "evidence-preserving rereads without agreement-only replacement",
+    "native-image versus temporal-still input control"
+  ]
+}

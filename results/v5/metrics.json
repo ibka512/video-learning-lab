@@ -1,0 +1,26 @@
+{
+  "calls": 58,
+  "fresh": 16,
+  "cache_hits": 0,
+  "load_seconds": 6.924537042010343,
+  "failed": 0,
+  "preparation_generation_seconds": 596.5476612971106,
+  "review_calls": 16,
+  "review_frames": 12,
+  "reused_base_calls": 42,
+  "scope": "selected stills, not continuous video",
+  "by_arm": {
+    "B": {
+      "calls": 18,
+      "seconds": 360.0152640840679
+    },
+    "C": {
+      "calls": 24,
+      "seconds": 111.8135055040475
+    },
+    "D": {
+      "calls": 16,
+      "seconds": 124.71889170899522
+    }
+  }
+}

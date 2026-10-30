@@ -1,0 +1,234 @@
+{
+  "groups": {
+    "B-aligned": {
+      "frames": 24,
+      "raw_correct": 16,
+      "correct": 14,
+      "wrong": 6,
+      "unknown": 4,
+      "frames_with_internal_conflicts": 2,
+      "questions": 18,
+      "question_correct": 10,
+      "question_grounded": 10,
+      "question_unknown": 7,
+      "extra_positions_on_correct_questions": 2
+    },
+    "B-reversed": {
+      "frames": 24,
+      "raw_correct": 14,
+      "correct": 13,
+      "wrong": 3,
+      "unknown": 8,
+      "frames_with_internal_conflicts": 4,
+      "questions": 18,
+      "question_correct": 9,
+      "question_grounded": 9,
+      "question_unknown": 7,
+      "extra_positions_on_correct_questions": 3
+    },
+    "B-visual_only": {
+      "frames": 24,
+      "raw_correct": 15,
+      "correct": 11,
+      "wrong": 8,
+      "unknown": 5,
+      "frames_with_internal_conflicts": 4,
+      "questions": 18,
+      "question_correct": 10,
+      "question_grounded": 10,
+      "question_unknown": 6,
+      "extra_positions_on_correct_questions": 3
+    },
+    "C-visual_only": {
+      "frames": 24,
+      "raw_correct": 18,
+      "correct": 17,
+      "wrong": 5,
+      "unknown": 2,
+      "frames_with_internal_conflicts": 2,
+      "questions": 18,
+      "question_correct": 10,
+      "question_grounded": 10,
+      "question_unknown": 4,
+      "extra_positions_on_correct_questions": 2
+    },
+    "D-visual_only": {
+      "frames": 24,
+      "raw_correct": 16,
+      "correct": 16,
+      "wrong": 8,
+      "unknown": 0,
+      "frames_with_internal_conflicts": 0,
+      "questions": 18,
+      "question_correct": 10,
+      "question_grounded": 10,
+      "question_unknown": 4,
+      "extra_positions_on_correct_questions": 2
+    }
+  },
+  "B_joint_pipeline_reversal": {
+    "targets": 12,
+    "both_correct": 1,
+    "both_grounded": 1
+  },
+  "review": {
+    "triggered_frames": 12,
+    "C_wrong_frames": 5,
+    "C_wrong_frames_triggered": 3,
+    "C_unknown_frames": 2,
+    "C_unknown_frames_triggered": 2,
+    "reasons": {
+      "single_multi_disagreement": 10,
+      "target_kind_conflict": 1,
+      "target_layer_conflict": 2,
+      "unresolved_single_observation": 2
+    },
+    "resolved": 12,
+    "unresolved": 0,
+    "wrong_corroborated": 6,
+    "wrong_to_correct": 0,
+    "wrong_to_unknown": 0,
+    "correct_to_unknown": 0,
+    "correct_to_wrong": 1
+  },
+  "costs": {
+    "B_visual_only_calls": 6,
+    "B_visual_only_seconds": 118.96011412501684,
+    "C_calls": 24,
+    "C_seconds": 111.8135055040475,
+    "D_incremental_calls": 16,
+    "D_incremental_seconds": 124.71889170899522,
+    "D_required_pipeline_calls": 46,
+    "D_required_pipeline_seconds": 355.49251133805956,
+    "note": "D requires B visual_only for conflict detection. Preparation/generation times exclude model load, source verification and Codex review."
+  },
+  "A_v4_evaluation_unchanged": {
+    "modes": {
+      "text_only": {
+        "questions": 18,
+        "content_correct": 0,
+        "correct_with_required_positions": 0,
+        "unknown": 18,
+        "appropriate_text_abstentions": 18
+      },
+      "visual_only": {
+        "questions": 18,
+        "content_correct": 15,
+        "correct_with_required_positions": 15,
+        "unknown": 2,
+        "appropriate_text_abstentions": 0
+      },
+      "aligned": {
+        "questions": 18,
+        "content_correct": 14,
+        "correct_with_required_positions": 14,
+        "unknown": 2,
+        "appropriate_text_abstentions": 0
+      },
+      "reversed": {
+        "questions": 18,
+        "content_correct": 13,
+        "correct_with_required_positions": 13,
+        "unknown": 2,
+        "appropriate_text_abstentions": 0
+      }
+    },
+    "reversal_sensitive_targets": 12,
+    "both_directions_correct": 8,
+    "both_directions_correct_with_positions": 8,
+    "answers_changed": 11,
+    "reversal_pairs": [
+      {
+        "case_id": "W",
+        "question_id": "first",
+        "both_directions_correct": false,
+        "both_directions_correct_with_positions": false,
+        "answer_changed": true
+      },
+      {
+        "case_id": "W",
+        "question_id": "last",
+        "both_directions_correct": false,
+        "both_directions_correct_with_positions": false,
+        "answer_changed": true
+      },
+      {
+        "case_id": "W",
+        "question_id": "order",
+        "both_directions_correct": true,
+        "both_directions_correct_with_positions": true,
+        "answer_changed": true
+      },
+      {
+        "case_id": "F",
+        "question_id": "first",
+        "both_directions_correct": true,
+        "both_directions_correct_with_positions": true,
+        "answer_changed": true
+      },
+      {
+        "case_id": "F",
+        "question_id": "last",
+        "both_directions_correct": true,
+        "both_directions_correct_with_positions": true,
+        "answer_changed": true
+      },
+      {
+        "case_id": "F",
+        "question_id": "order",
+        "both_directions_correct": true,
+        "both_directions_correct_with_positions": true,
+        "answer_changed": true
+      },
+      {
+        "case_id": "T",
+        "question_id": "first",
+        "both_directions_correct": true,
+        "both_directions_correct_with_positions": true,
+        "answer_changed": true
+      },
+      {
+        "case_id": "T",
+        "question_id": "last",
+        "both_directions_correct": false,
+        "both_directions_correct_with_positions": false,
+        "answer_changed": true
+      },
+      {
+        "case_id": "T",
+        "question_id": "order",
+        "both_directions_correct": false,
+        "both_directions_correct_with_positions": false,
+        "answer_changed": false
+      },
+      {
+        "case_id": "C",
+        "question_id": "first",
+        "both_directions_correct": true,
+        "both_directions_correct_with_positions": true,
+        "answer_changed": true
+      },
+      {
+        "case_id": "C",
+        "question_id": "last",
+        "both_directions_correct": true,
+        "both_directions_correct_with_positions": true,
+        "answer_changed": true
+      },
+      {
+        "case_id": "C",
+        "question_id": "order",
+        "both_directions_correct": true,
+        "both_directions_correct_with_positions": true,
+        "answer_changed": true
+      }
+    ],
+    "measurement_limit": "position checks show cited evidence coverage, not independent causal or free-description correctness"
+  },
+  "limits": [
+    "C/D reordering is program sorting, not a model temporal score.",
+    "Reference is Codex-reviewed development data, not independent human gold.",
+    "Template consistency is not perception accuracy; cues and boxes require separate source review.",
+    "Primary-state scoring does not measure recall of all visible objects."
+  ]
+}

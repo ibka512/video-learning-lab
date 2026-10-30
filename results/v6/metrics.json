@@ -1,0 +1,24 @@
+{
+  "calls": 58,
+  "new_calls": 58,
+  "cache_hits": 0,
+  "rereads": 2,
+  "failed": 0,
+  "model_load_seconds": 7.734665291001875,
+  "preparation_generation_seconds": 153.59057153898902,
+  "by_arm": {
+    "native": {
+      "calls": 28,
+      "seconds": 72.48431328899824
+    },
+    "temporal": {
+      "calls": 28,
+      "seconds": 74.81775429199115
+    },
+    "reread": {
+      "calls": 2,
+      "seconds": 6.288503957999637
+    }
+  },
+  "semantic_approval": false
+}

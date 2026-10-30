@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-30",
+  "engineering_scope": "implemented_and_executed",
+  "initial_evidence_preservation": "passed",
+  "coexisting_property_representation": "passed",
+  "automatic_video_understanding_gate": "not_passed",
+  "automatic_knowledge_publish": false,
+  "legacy_pipeline_replaced": false,
+  "new_model_or_dependency": false,
+  "native_encoding_superiority": "not_supported_by_this_sample",
+  "reason": "Both encodings score 32/40, content 30/32 but window identity 2/8; same model often makes the same mistake. No field auto-approved.",
+  "next_work_not_implemented": [
+    "separate window title/border evidence from window classification",
+    "controlled resolution/target-region tests before model changes",
+    "independent new-video and continuous-event tests after method stabilization"
+  ]
+}
